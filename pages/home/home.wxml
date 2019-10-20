@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<view class='sel'>
+<text class='tips'>小抽签</text>
+<button class='btn' bindtap='tocon'>开始进入抽签程序</button>
+</view>

@@ -1,0 +1,56 @@
+/* pages/main.wxss */
+
+.zuida {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rpx;
+  background-attachment: fixed;
+}
+
+.zujian {
+  height: 19vh;
+}
+
+.tips {
+  font-size: 44rpx;
+  margin-bottom: 1vh;
+}
+
+.section {
+  width: 80vw;
+  height: 6vh;
+  background-color: rgba(132, 140, 255, 0.205);
+}
+
+.sectionx {
+  width: 38vw;
+  height: 6vh;
+  background-color: rgba(132, 140, 255, 0.205);
+  float: left;
+}
+
+.sectiony {
+  width: 38vw;
+  height: 6vh;
+  background-color: rgba(132, 140, 255, 0.205);
+  float: right;
+}
+
+.btnda {
+  height: 6vh;
+  margin-bottom: 3vh;
+}
+
+.btn {
+  width: 50vw;
+}
+
+.show {
+  font-size: 40rpx;
+  width: 50vw;
+  height: 5vh;
+  margin-top: 10rpx;
+  background-color: rgba(101, 231, 25, 0.192);
+}

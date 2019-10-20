@@ -1,0 +1,18 @@
+/* pages/home/home.wxss */
+.sel{
+  height: 60vh;
+  padding-top: 15vh;
+  padding-bottom: -20vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
+}
+.btn{
+  width: 410rpx;
+  background-color: seashell;
+}
+.tips {
+  font-size: 74rpx;
+  margin-bottom: 1vh;
+}

@@ -1,0 +1,22 @@
+<!--pages/main.wxml-->
+<view>
+  <view class='zuida'>
+    <view class='zujian'>
+      <text class='tips'>请输入抽签号码范围：{{fanweix}}~{{fanweiy}}</text>
+      <view>
+        <input type='number' maxlength="4" bindinput="funfanweix" class='sectionx' auto-focus/>
+        <text class='tips'>~</text>
+        <input type='number' maxlength="4" bindinput="funfanweiy" class='sectiony' auto-focus/>
+      </view>
+    </view>
+    <view class='zujian'>
+      <text class='tips'>当前最多可抽：{{fanweiy-fanweix+1}}  个\n请输入你要抽取号码数量：{{duosao}}</text>
+      <input type='number' maxlength="4" bindinput="funduosao" class='section' auto-focus/>
+    </view>
+    <view class='btnda'>
+      <button bindtap='start' class='btn'>开始抽取</button>
+    </view>
+    <view class='tips'>抽取到的号码为：</view>
+    <view class='show' wx:for="{{number}}" wx:key="unique" >{{index+1}}: {{item}}号</view>
+  </view>
+</view>
